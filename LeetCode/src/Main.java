@@ -1,11 +1,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        StackwzQueue a = new StackwzQueue();
-        a.push(1);
-        System.out.print(a.pop());
-        //System.out.print(a.top());
-        System.out.print(a.empty());
-
+        Anagram a = new Anagram();
+        System.out.print(a.isAnagram("a","a"));
+        System.out.println('c'-'a');
     }
 }
