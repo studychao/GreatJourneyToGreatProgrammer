@@ -7,3 +7,30 @@ Loveya.Bye.
 ## ByteString 
 
 ### Builder
+
+
+
+## Monoid
+A monoid has two things: a 'unit' value, which we call *mempty*, and an append operation that combines values, called *mappend*.
+It's defined as 
+```
+class Monoid a where
+    mempty  :: a
+    mappend :: a -> a -> a
+
+    -- This is here because some types might have a more efficient definition for it.
+    mconcat :: [a] -> a
+    mconcat = foldr mappend mempty
+```
+
+(<>) => used to refer to mappend
+```
+infixr 6 (<>)
+
+(<>) :: Monoid a => a -> a -> a
+(<>) = mappend
+```
+> What is infixr?
+>infixr 6 (<>)
+>(<>) :: Monoid a => a -> a -> a
+>(<>) = mappend
