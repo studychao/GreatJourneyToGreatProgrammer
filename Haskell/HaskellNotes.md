@@ -80,3 +80,8 @@ A semigroup is a set S together with a binary operation " · " (that is, a funct
 For all  a,b,c 属于 S, the equation (a·b)·c = a·(b·c) holds.
 More succinctly, a semigroup is an associative magma.
 
+## Quasiquote
+
+The QuasiQuoter type, a value q of this type can be used in the syntax `[q| ... string to parse ...|]`. In fact, for convenience, a QuasiQuoter actually defines multiple quasiquoters to be used in different splice contexts; if you are only interested in defining a quasiquoter to be used for expressions, you would define a QuasiQuoter with only quoteExp, and leave the other fields stubbed out with errors.
+
+
