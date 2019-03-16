@@ -121,21 +121,46 @@ Widgets take a different approach. Instead of viewing an HTML document as a mono
 
 
 ### Specific Widget
-1. setTitle
+- setTitle
 Turns some HTML into the page title.
 
-2. toWidgetMedia
+- toWidgetMedia
 Works the same as toWidget, but takes an additional parameter to indicate what kind of media this applies to. Useful for creating print stylesheets, for instance.
 
-3. addStylesheet
-Adds a reference, via a <link> tag, to an external stylesheet. Takes a type-safe URL.
+- addStylesheet
+Adds a reference, via a `<link>` tag, to an external stylesheet. Takes a type-safe URL.
 
-4. addStylesheetRemote
+- addStylesheetRemote
 Same as addStylesheet, but takes a normal URL. Useful for referring to files hosted on a CDN, like Google’s jQuery UI CSS files.
 
-5. addScript
-Adds a reference, via a <script> tag, to an external script. Takes a type-safe URL.
+- addScript
+Adds a reference, via a `<script>` tag to an external script. Takes a typesafe URL.
 
-6. addScriptRemote
+- addScriptRemote
 Same as addScript, but takes a normal URL. Useful for referring to files hosted on a CDN, like Google’s jQuery.
 
+### Combining Widgets
+```
+myWidget1 = do
+    toWidget [hamlet|<h1>My Title|]
+    toWidget [lucius|h1 { color: green } |]
+
+myWidget2 = do
+    setTitle "My Page Title"
+    addScriptRemote "http://www.example.com/script.js"
+
+myWidget = do
+    myWidget1
+    myWidget2
+
+-- or, if you want
+myWidget' = myWidget1 >> myWidget2
+```
+
+### Type
+You may have noticed that I’ve been avoiding type signatures so far. The simple answer is that each widget is a value of type Widget.
+Yesod defines a very similar type: `data WidgetT site m a`. This data type is a monad transformer. 
+
+### Using Widgets
+defaultLayout :: Widget -> Handler Html
+widgetToPageContent :: Widget -> Handler (PageContent url)

@@ -85,3 +85,86 @@ More succinctly, a semigroup is an associative magma.
 The QuasiQuoter type, a value q of this type can be used in the syntax `[q| ... string to parse ...|]`. In fact, for convenience, a QuasiQuoter actually defines multiple quasiquoters to be used in different splice contexts; if you are only interested in defining a quasiquoter to be used for expressions, you would define a QuasiQuoter with only quoteExp, and leave the other fields stubbed out with errors.
 
 
+## Functors
+Functor has only one typeclass method,namely fmap
+
+`fmap :: ( a -> b) -> f a -> f b`
+` fmap f g = f.g; `
+It says: give me a function that takes an a and returns a b and a box with an a inside it and I'll give you a give with a b inside it.
+
+If we want to make a type constructor an instance of Functor, it has to have a kind of`* -> *` , which means that it has to take exactly one concrete type as a type parameter.
+For example, Maybe can be made an instance because it takes one type parameter to produce a concrete type, like Maybe Int or Maybe String
+
+If a type constructor takes two parameters, like `Either`, we have to partially apply the type constructor until it only takes one type parameter. So we can't write `instance Functor Either where`, but we can write `instance Functor (Either a) where` and then if we imagine that fmap is only for Either a, it would have a type declaration of `fmap :: (b -> c) -> Either a b -> Either a c`. As you can see, the `Either a` part is fixed, because `Either a` takes only one type parameter, whereas just Either takes two so `fmap :: (b -> c) -> Either b -> Either c` wouldn't really make sense.
+
+
+
+## Monad
+
+
+`(<*>) :: (Applicative f) => f (a -> b) -> f a -> f b`
+
+example:
+```
+a = Just (*2)
+b = Just 4
+a <*> b
+>>>Just 8
+```
+`(<$>) :: Functor f => (a -> b) -> f a -> f b`
+
+Monads are a natural extension of applicative functors and with them we're concerned with this: if you have a value with a context, m a, how do you apply to it a function that takes a normal a and returns a value with a context? That is , how do you apply a function of type a -> m b to a value of type m a? So essentially, we will want this function:
+
+`(>>=) :: (Monad m) => m a -> (a -> m b) -> m b `
+
+
+## Type Constructor && Data Constructor
+
+### Star
+[] is a type constructor
+```
+:info []
+data [] a = [] | a : [a] -- Defined 
+```
+
+[] is a type constructor taking one type argument a and returning the type [] a, which is also permitted to be written as [a].
+
+[] is a data constructor which essentially means "empty list." This data constructor takes no value arguments.
+
+### Data Constructors
+```
+data Colour = Red | Green | Blue
+```
+Colour is a type, and Green is a constructor that contains a value of type Colour.
+Similarly, Red and Blue are both constructors that construct values of type Colour.
+
+```
+data Colour = RGB Int Int Int
+```
+We still have just the type Colour, but RGB is not a value – it's a function taking three Ints and returning a value! RGB has the type
+```
+RGB :: Int -> Int -> Int -> Colour
+```
+RGB is a data constructor that is a function taking some values as its arguments, and then uses those to construct a new value. If you have done any object-oriented programming, you should recognise this. In OOP, constructors also take some values as arguments and return a new value!
+
+A data constructor either contains a value like a variable would, or takes other values as its argument and creates a new value. 
+
+### Intermission 
+
+If you want to construct a binary tree to store Strings, you could imagine doing something like
+```
+data SBTree = Leaf String
+            | Branch String SBTree SBTree
+```
+What we see here is a type SBTree that contains two data constructors. In other words, there are two functions (namely Leaf and Branch) that will construct values of the SBTree type. If you're not familiar with how binary trees work, just hang in there. You don't actually need to know how binary trees work, only that this one stores Strings in some way
+
+
+### Type constructors
+```
+data BTree a = Leaf a
+             | Branch a (BTree a) (BTree a)
+             ```
+
+Now we introduce a type variable a as a parameter to the type constructor. In this declaration, BTree has become a function. It takes a type as its argument and it returns a new type.
+
+ a type constructor function which you need to feed a type to be able to be assigned to a value
