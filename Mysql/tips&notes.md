@@ -14,3 +14,6 @@
   ```
 
 - `DROP TABLE table_name ;` This is for deleting a mysql table
+
+## ORM
+Object-relational mapping (ORM, O/RM, and O/R mapping tool) in computer science is a programming technique for converting data between incompatible type systems using object-oriented programming languages.

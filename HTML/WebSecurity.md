@@ -43,3 +43,36 @@ CSRF defences
 - If necessary, use per-request CSRF security tokens
 - Re-authenticate before critical operations
 - For an API,you can add and require custom "X-" headers
+
+## SOP
+SOP = Same Origin Policy
+Browsers only allow JavaScript requests to the same origin(protocol,host,port) as the source of the script
+
+So a script on forum.example.com cannot launch requests to Bank.example.com
+
+## CORS
+CORS : Cross Origin Resource Sharing 
+Then you should set the following header in your responses:
+Access-Control-Allow-Origin: *
+
+Instead of * , you can whitlist particular domains that are allowed - details at
+`https://www.w3.org/TR/cors/`
+
+## TLS
+### Idea1
+Encrypt ur traffic with a key so that anyone listening in can't understand
+Problem: the attacker could be o the path to the real server
+
+###Ideal2
+- browsers have root certificates from CAs built in 
+- servers buy certificates from CAs
+
+## Password storage
+Hashing Password.  
+In theory, you should pick a random salt for each user and store hash (salt, password). That way it doesn't show up if users share passwords.
+
+For Java,use `ScryptUtil`
+Use a library - don't use you own model unless you got a PHD in this field.
+
+## SQL Injection
+A SQL injection vulnerability exists when an application combines user-supplied data with SQL code in a single string. The whole string is parsed as SQL on the server. If the user-supplied data is supposed to be a single-quoted string, then a single quote in the data ends the string prematurely and lets you write almost any SQL query.

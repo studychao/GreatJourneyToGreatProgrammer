@@ -58,3 +58,105 @@ var string=JSON.stringify(rows);
 ### Javascript String -> JSON 
 JSON.stringify(obj) JSON -> STRING
 JSON.parse(string)  STRING -> JSON
+
+### dotenv package 
+get the environment variable
+
+### Module
+- What is a module?
+A module encapsulates related code into a single unit of code. When creating a module, this can be interpreted as moving all related functions into a file
+```
+// greetings.js
+sayHelloInEnglish = function() {
+return "Hello";
+};
+
+sayHelloInSpanish = function() {
+return "Hola";
+};
+```
+- Exporting a Module
+The utility of `greeting.js` increases when its encapsulated code can be utilized in other files.Let's refactor `greeting.js`.
+
+1. Imagine that this line of code exists as the first line of code in `greeting.js`
+```
+var exports = module.exports = {};
+```
+
+2. Assign any expression in `greetings.js` that we want to become available in other files to the exports `objects` object:
+```
+// greetings.js
+// var exports = module.exports = {};
+
+exports.sayHelloInEnglish = function() {
+return "HELLO";
+};
+
+exports.sayHelloInSpanish = function() {
+return "Hola";
+};
+```
+In the code above, we could have replaced `exports` with `module.exports` and achieved the same result. If this seems confusing, remember that `exports` and `module.exports` reference the same object.
+
+3. This is the current value of module.exports:
+```
+module.exports = {
+sayHelloInEnglish: function() {
+return "HELLO";
+},
+
+sayHelloInSpanish: function() {
+return "Hola";
+}
+};
+```
+
+- Importing a Module
+Let's import the publicly available methods of `greeting.js` to a new file called `main.js`.
+1. The keyword `require` is used in Node.js to import modules.Imagine that this is how require is defined.
+```
+var require = function(path) {
+
+// ...
+
+return module.exports;
+};
+```
+
+2. Let's require `greeting.js` in `main.js`:
+```
+// main.js
+var greetings = require("./greetings.js");
+```
+This is equivalent to 
+```
+// main.js
+var greetings = {
+sayHelloInEnglish: function() {
+return "HELLO";
+},
+
+sayHelloInSpanish: function() {
+return "Hola";
+}
+};
+```
+
+3. Now we can use those functions freely
+```
+// main.js
+var greetings = require("./greetings.js");
+
+// "Hello"
+greetings.sayHelloInEnglish();
+
+// "Hola"
+greetings.sayHelloInSpanish();
+```
+
+- Important Points
+
+### "Use Strict"
+The purpose of "use strict" is to indicate that the code should be executed in "strict mode".
+
+With strict mode, you can not, for example, use undeclared variables.
