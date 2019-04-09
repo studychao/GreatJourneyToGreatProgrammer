@@ -23,3 +23,11 @@ Gre Words
 20. precipitous. a precipitous decline in exports / Haskell gets a very precipitous learning curve.
 
 21. preclude. He is precluded in the invitation.He is so sad about that.
+22. precocial . 早熟的 He is so precocial that he started to think about girls when he was only 3
+23. precocious 早熟的
+24. preconception . 成见 You cannot use your preconception to judge other people, it's not fair.
+25. predate 早于 His review predates his final exam.
+26. predecessor 前辈 The new boss in Apple beats his predecessor
+27. predicament 困境 This is a really hard predicament, we need to solve it as soon as possible.
+28. predilection 偏爱 His predilection or boys makes him gay.
+29. predispose They take pains to hire people whose personalities predispose them to serve customers well~
