@@ -2,15 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44705813-1f45-493e-ba1f-1314113762c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CCI/src/1-1IsUnique/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CCI/src/1-1IsUnique/array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCI/src/IsUnique/chao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCI/src/mergesort/mergesort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BestTimeToBuy/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BestTimeToBuy2/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LongestSubstring/SlidingShadow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LongestSubstring/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReverseLink/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/climbingstairs/DynamicProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/climbingstairs/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/climbingstairs/fibtry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uniqueemail/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CCI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CCI/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CCI/CrackNode.md" beforeDir="false" afterPath="$PROJECT_DIR$/../CCI/CrackNode.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CCI/out/production/Exercise/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CCI/out/production/Exercise/array.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CCI/out/production/Exercise/array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CCI/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CCI/src/array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CCI/out/production/Exercise/IsUnique/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CCI/out/production/Exercise/IsUnique/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CCI/out/production/Exercise/IsUnique/array.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CCI/out/production/Exercise/IsUnique/array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CCI/src/IsUnique/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CCI/src/IsUnique/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CCI/src/IsUnique/array.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CCI/src/IsUnique/array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/JavaNote.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA/JavaNote.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mysql/tips&amp;notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Mysql/tips&amp;notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS/OS.md" beforeDir="false" afterPath="$PROJECT_DIR$/../OS/OS.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,32 +35,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ValidParentheses.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="105">
+              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#63#64#0" expanded="true" />
+                <element signature="e#93#94#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="6" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Anagram.java">
+        <entry file="file://$PROJECT_DIR$/src/uniqueemail/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="25" selection-start-line="4" selection-start-column="8" selection-end-line="13" selection-end-column="25" />
+            <state relative-caret-position="345">
+              <caret line="23" selection-start-line="23" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="e#159#167#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,8 +75,62 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode.iml">
+        <entry file="file://$PROJECT_DIR$/src/LongestSubstring/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LongestSubstring/SlidingShadow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ReverseLink/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BestTimeToBuy/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BestTimeToBuy2/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/uniqueemail/929.md">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/climbingstairs/fibtry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="20" selection-end-column="5" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -90,14 +153,24 @@
         <option value="$PROJECT_DIR$/src/StackwzQueen.java" />
         <option value="$PROJECT_DIR$/src/StackwzQueue.java" />
         <option value="$PROJECT_DIR$/src/Anagram.java" />
+        <option value="$PROJECT_DIR$/src/climbingstairs/fib.java" />
+        <option value="$PROJECT_DIR$/src/climbingstairs/Solution.java" />
+        <option value="$PROJECT_DIR$/src/climbingstairs/fibtry.java" />
+        <option value="$PROJECT_DIR$/src/climbingstairs/DynamicProgram.java" />
+        <option value="$PROJECT_DIR$/src/uniqueemail/Solution.java" />
+        <option value="$PROJECT_DIR$/src/LongestSubstring/Solution.java" />
+        <option value="$PROJECT_DIR$/src/LongestSubstring/SlidingShadow.java" />
+        <option value="$PROJECT_DIR$/src/BestTimeToBuy/Solution.java" />
+        <option value="$PROJECT_DIR$/src/BestTimeToBuy2/Solution.java" />
+        <option value="$PROJECT_DIR$/src/ReverseLink/Solution.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="956" />
+    <option name="height" value="953" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -105,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,15 +190,35 @@
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="climbingstairs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LongestSubstring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="uniqueemail" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547053771715" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554935376410" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -143,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LeetCode" />
@@ -151,9 +243,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestSubstring.Solution" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LongestSubstring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uniqueemail.Solution" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uniqueemail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fibtry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="climbingstairs.fibtry" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="climbingstairs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.fibtry" />
       </list>
     </recent_temporary>
   </component>
@@ -171,10 +305,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="956" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="953" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.44810745" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.45360196" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -183,15 +317,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.498779" visible="true" weight="0.32868758" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.501221" side_tool="true" visible="true" weight="0.32868758" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3297619" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4981685" weight="0.32868758" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -204,9 +338,12 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Valid_Parentheses.java" />
+    <entry file="file://$PROJECT_DIR$/LeetCode.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ValidParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
+        <state relative-caret-position="585">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -218,6 +355,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="25" selection-start-line="4" selection-start-column="8" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/climbingstairs/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/climbingstairs/929.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/climbingstairs/DynamicProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/climbingstairs/fibtry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uniqueemail/929.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uniqueemail/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#159#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LongestSubstring/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LongestSubstring/SlidingShadow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BestTimeToBuy/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BestTimeToBuy2/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -233,13 +435,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode.iml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/ReverseLink/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="105">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#63#64#0" expanded="true" />
+            <element signature="e#93#94#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

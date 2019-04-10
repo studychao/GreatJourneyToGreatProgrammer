@@ -17,3 +17,6 @@
 
 ## ORM
 Object-relational mapping (ORM, O/RM, and O/R mapping tool) in computer science is a programming technique for converting data between incompatible type systems using object-oriented programming languages.
+
+## DELETE
+当要删除的记录在数据库中不存在时，是不会报错的

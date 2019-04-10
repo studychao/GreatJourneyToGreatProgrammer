@@ -3,6 +3,8 @@
 1024 Byte = 1 KB
 1M = 1024KB
 
+2^10 = 1024
+
 # Arrays and Strings
 
 ## Hash Tables
@@ -50,4 +52,13 @@ use StringBuilder to solve this problem !(`sentence.append`)
 
 ## Tree
 度数(边数) = 所有节点数-1：
-这里度数=2*100+100=300，节点数：100+100+叶子节点数
+这里度数=2 * 100+100=300，节点数：100+100+叶子节点数
+
+## Sorting & Searching 
+
+1. Bubble Sort | Runtime O(n^2), Memory O(1)
+2. Selection Sort | Runtime O(n^2) Memory O(1)
+3. Merge Sort | Runtime O(nlogn) Memory:depends
+- Merge sort divides the array in half, sorts each of those halves, and then merges them back together. Each of those halves has the same sorting algorithm applied to it. Eventually, you are merging just two single-element arrays.It's the merge part that does all the heavy lifting.
+4. Quick Sort | Runtime O(nlogn) O(n^2). Memory:O(logn)
+5. Radix Sort | Runtime O(kn) 
