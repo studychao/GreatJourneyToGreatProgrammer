@@ -1,6 +1,8 @@
 # Java
 
-## Double Brace Initialisation
+## Detail Usage 
+
+### Double Brace Initialisation
 ```
 @Test
 public void givenAnonymousInnerClass_thenInitialiseList() {
@@ -21,7 +23,12 @@ As usual, we can use instance initializer blocks and that is where the inner pai
 
 The brevity of this syntax is tempting however it’s considered an anti-pattern.
 
-## HashSet
+### Math库
+向上取整 Math.ceil ->得到的是double
+向下取证 Math.floor ->得到的是double
+## Data Structure
+
+### HashSet
 A Hashset holds a set of objects, but in a way that it allows you to easily and quickly determine whether an obe=ject is already in the set or not.It does so by internally managing an array and storing the object using an index which is calculated from the hashcode of the object.
 
 Add, Remove, Contains functions take O(1)
@@ -35,6 +42,55 @@ public boolean add(Object o)方法用来在Set中添加元素，当元素值重�
 HashMap实现了Map接口，Map接口对键值对进行映射。Map中不允许重复的键。Map接口有两个基本的实现，HashMap和TreeMap。TreeMap保存了对象的排列次序，而HashMap则不能。HashMap允许键和值为null。HashMap是非synchronized的，但collection框架提供方法能保证HashMap synchronized，这样多个线程同时访问HashMap时，能保证只有一个线程更改Map。
 
 public Object put(Object Key,Object value)方法用来将元素添加到map中。
+
+### HashMap
+
+One object is used as a key (index) to another object (value). It can store different types: String keys and Integer values, or the same type, like: String keys and String values:
+
+- Create a hashset:
+```
+import java.util.HashMap; // import the HashMap class
+HashMap<String, String> capitalCities = new HashMap<String, String>();
+```
+- Add Items:
+```
+// Create a HashMap object called capitalCities
+HashMap<String, String> capitalCities = new HashMap<String, String>();
+// Add keys and values (Country, City)
+capitalCities.put("England", "London");
+```
+- Access an Item : use the `get()` method and refers to its key
+`capitalCities.get("England");`
+
+- Remove an Item : use the `remove()` method and refer to the key:
+`capitalCities.get("England");`
+
+- Remove all
+`capitalCities.clear();`
+
+- Size
+`capitalCities.size();`
+
+- Get HashMap(Loop Through)
+1) use `keySet()` if u only want the keys
+```
+// Print keys
+for (String i : capitalCities.keySet()) {
+  System.out.println(i);
+}
+```
+2)use `.values()` if u only want the values
+```
+// Print values
+for (String i : capitalCities.values()) {
+  System.out.println(i);
+}
+```
+
+- getOrDefault(Object key, V defaultValue)
+Returns the value to which the specified key is mapped, or defaultValue if this map contains no mapping for the key.
+
+
 
 ## Autoboxing
 自动装箱(autoboxing)是指 Java 编译器自动将基本数据类型值转换成对应的包装类的对象，例如将 int 转换为 Integer 对象，将 boolean 转换问 Boolean 对象。而拆箱(unboxing)则是反过来转换。
