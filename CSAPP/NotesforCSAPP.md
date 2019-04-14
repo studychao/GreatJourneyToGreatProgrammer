@@ -48,3 +48,29 @@ Adapter : a card that plugs into a slot on the motherboard.
 The main memory is a *temporary* storage device that holds both a program and the data it manipulates while the processor is executing the program.
 Main memory consists of a collection of Dynamic Random Access Memory(*DRAM*) chips.
 Logically, memory is organized as a linear array of bytes each with its own unique address starting at zero.
+
+### Processor
+The central processing unit(CPU), or simply processor, is the engine that interprets (or executes) instructions that stored in main memory. At its core is a word-sized storage device(or register) called the program counter(PC). At any point in time, the PC points at (contains the address of ) some machine-language in main memory.
+
+From the time the power is applied to the system, until the time that the power is shut off, the processor blindly and repeatedly performs the same basic task over and over again:1) It reads the instruction from memory pointed at by the program counter(PC) 2) interprets the bits in the instruction 3) performs some simple operation dictated by the instruction 4) update the PC to point to the next instruction (may not be contiguous in memory)
+
+There are only a few of these simple op, and the revolve around main memory, the register file, and the arithmetic/logic unit (ALU). The register file is a small storage device that consists of a collection of word-sized registers, each with its own unique name. The ALU computes new data and address values. Here are some examples of the simple op that the CPU carry out.
+
+Load : copy a byte/word: Main Memory -> Register.(overwriting the previous contents)
+Store : copy a byte /word : Register -> Main Memory. (overwriting the previous contents)
+Update : copy the contents of two registers to the ALU, whcih adds the two words together and stores the result in a register.
+(overwriting the previous contents)
+I/O Read: copy a byte/word :  I/O device -> Register
+I/O Write : copy a byte/word : Register -> I/O device
+Jump : Extract a word from the instruction itself and copy that word into the program counter (PC) (overwriting the previous contents)
+
+```
+Byte & Word
+Byte: Today, a byte is almost always 8 bit. However, that wasn't always the case and there's no "standard" or something that dictates this. Since 8 bits is a convenient number to work with it became the de facto standard.
+
+Word: The natural size with which a processor is handling data (the register size). The most common word sizes encountered today are 8, 16, 32 and 64 bits, but other sizes are possible. For examples, there were a few 36 bit machines, or even 12 bit machines.
+
+The byte is the smallest addressable unit for a CPU. If you want to set/clear single bits, you first need to fetch the corresponding byte from memory, mess with the bits and then write the byte back to memory.
+
+The word by contrast is biggest chunk of bits with which a processor can do processing (like addition and subtraction) at a time. That definition is a bit fuzzy, as some processor might have different word sizes for different tasks (integer vs. floating point processing for example). The word size is what the majority of operations work with
+```
