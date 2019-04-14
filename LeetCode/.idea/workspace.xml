@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44705813-1f45-493e-ba1f-1314113762c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CCI/src/IsUnique/chao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CCI/src/mergesort/mergesort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BestTimeToBuy/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BestTimeToBuy2/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LongestSubstring/SlidingShadow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LongestSubstring/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReverseLink/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/climbingstairs/DynamicProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/climbingstairs/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/climbingstairs/fibtry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uniqueemail/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CCI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CCI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CCI/CrackNode.md" beforeDir="false" afterPath="$PROJECT_DIR$/../CCI/CrackNode.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CCI/out/production/Exercise/IsUnique/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CCI/out/production/Exercise/IsUnique/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CCI/out/production/Exercise/IsUnique/array.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CCI/out/production/Exercise/IsUnique/array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CCI/src/IsUnique/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CCI/src/IsUnique/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CCI/src/IsUnique/array.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CCI/src/IsUnique/array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA/JavaNote.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA/JavaNote.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mysql/tips&amp;notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Mysql/tips&amp;notes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OS/OS.md" beforeDir="false" afterPath="$PROJECT_DIR$/../OS/OS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mysql/tips&amp;notes.md" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -167,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="953" />
@@ -217,7 +195,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554935376410" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554971197628" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -305,8 +283,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="953" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="953" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.45360196" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -317,7 +294,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.498779" visible="true" weight="0.32868758" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498779" weight="0.32868758" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

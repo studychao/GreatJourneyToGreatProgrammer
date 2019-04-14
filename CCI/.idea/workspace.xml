@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57a29fb2-afaf-4aa7-95c1-3029325eaea9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/IsUnique/chao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mergesort/mergesort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/src/climbingstairs/DynamicProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/src/climbingstairs/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/src/climbingstairs/fibtry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/src/uniqueemail/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ali/exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuickSort/quicksort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrackNode.md" beforeDir="false" afterPath="$PROJECT_DIR$/CrackNode.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Exercise/IsUnique/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercise/IsUnique/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/IsUnique/array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercise/IsUnique/array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IsUnique/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IsUnique/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IsUnique/array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IsUnique/array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA/JavaNote.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA/JavaNote.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mysql/tips&amp;notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Mysql/tips&amp;notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mysql/tips&amp;notes.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../OS/OS.md" beforeDir="false" afterPath="$PROJECT_DIR$/../OS/OS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Tech/WebTech.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Tech/WebTech.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IsUnique/array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="390">
               <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -40,7 +32,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IsUnique/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -48,6 +40,24 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/QuickSort/quicksort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Ali/exercise.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -64,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mergesort/mergesort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+            <state relative-caret-position="480">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -96,6 +106,8 @@
         <option value="$PROJECT_DIR$/src/mergesort/mergesort.java" />
         <option value="$PROJECT_DIR$/src/IsUnique/array.java" />
         <option value="$PROJECT_DIR$/src/IsUnique/Main.java" />
+        <option value="$PROJECT_DIR$/src/QuickSort/quicksort.java" />
+        <option value="$PROJECT_DIR$/src/Ali/exercise.java" />
       </list>
     </option>
   </component>
@@ -134,16 +146,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="mergesort" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CCI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="QuickSort" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554909811588" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554974482662" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -163,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.exercise">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IsUnique.Main" />
       <module name="Exercise" />
@@ -177,6 +195,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="IsUnique.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ali.exercise" />
+      <module name="Exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ali.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,6 +230,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exercise" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.array" />
         <item itemvalue="Application.mergesort" />
@@ -219,9 +251,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="953" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="953" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -250,19 +282,9 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CrackNode.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mergesort/mergesort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IsUnique/array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="390">
           <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -277,6 +299,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/mergesort/mergesort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrackNode.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QuickSort/quicksort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/IsUnique/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -284,6 +323,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ali/exercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
