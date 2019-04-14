@@ -89,3 +89,25 @@ Gre Words
 77. prominent
 78. promise
 79. [* ]promulgate: The shipping industry promulgated a voluntary code.
+
+80. prone
+81. pronounced: The problem is so pronounced that nobody can neglect it.
+82. proofread
+83. propagate : They keep propagating the new show of CCTV6 but we all know it's boring.
+84. propensity: The gay people have the propensity to love boys.
+85. prophetic: This ominous warning soon proved prophetic.
+86. propitiate: The teacher is angry. You need to work out to propitiate his anger
+87. porportional
+88. proposition: My proposition of this debate is all human should love each other/
+89. proprietary: The journal tried to get access to proprietary information.
+
+90. propriety : They lack social propriety.
+91. prosaic: Our life is prosaic. We need to make some change
+92. proscribe : In some culture surgery is proscribed.
+93. prospect: We need to prospect for the new clients.
+94. prosperous
+95. protagonist: Get out off the way! He is the protagonist of this show.
+96. protean: Brightin is a protean city, You can see all walk of life.
+97. protein
+98. protocol: We made up a protocol on how to share the room; You have to obey Chinese protocol when you come to China
+99. protoplanetary -> proto 雏形原型
