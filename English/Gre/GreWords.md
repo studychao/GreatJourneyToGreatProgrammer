@@ -111,3 +111,62 @@ Gre Words
 97. protein
 98. protocol: We made up a protocol on how to share the room; You have to obey Chinese protocol when you come to China
 99. protoplanetary -> proto 雏形原型
+
+100. protract: Apple protracted the release date of iPhone XSS.
+101. provenance : Kato was fully aware of the provenance of these treasures
+102. proverb : An old Arab proverb says ' The enemy's friend is my friend.'
+103. provincialism: He have stayed in a small city for so long and he wants to escape from the provincialism in this city.
+104. provisional: Please be patient of the change, it's only provisional.
+105. provocative: He has made a string of outspoken and sometimes provocative speeches in recent years.
+106. proximity
+107. proxy : Those not attending the meeting may vote by proxy
+108. prudent: He is a prudent businessman.
+109. prune: Companies are pruning the employee to survive the winter of the industry.
+
+110. prying : He knows about all the gossip cause he is a prying boy.
+111. pseudonym : His pseudonym is Cutie Pie.
+112. pseudoscience : It is just pseudoscience.Please dont believe it.
+113. psyche : She is a psychologist. She spends all her life on human psyche
+114. puerile : This is a really puerile joke. You are just like a child.
+115. pugnacious : He loves fighting with other people. He is a pugnacious man.
+116. pulley : The lifting device is a system of rope and pulley.
+117. pulsate : The pulsating headache almost killed me.
+118. punctilious : He was punctilious about being ready and waiting in the entrance hall exactly on time.
+119. pundit : I tried so hard to learn and read to be the pundit in my major.
+
+120. pungent : I'm a Shanghai boy. I cannot handle pungent food. ;No one enjoy your pungent words.
+121. puny: He is a puny boy in high school, so he always gets bully.
+122. pupa : We saw a moth and a pupa on this leaf.
+123. purify
+124. purport : Tim Cook purported iPhoneX was the best iPhone ever, ; The purport of this subject is to become acquainted with the procedure of finite thought
+125. pushover : He is a pushover. He is really easy to be convinced.
+126. putative: Although there are many authors who claimed that they wrote this book, he was the putative author.
+127. quack: My father is a good doctor.He is not a quack.
+128. Quaker 贵格会教徒
+129. [* ]quandary : The government appeared to be in a quandary about what to do with so many people
+
+130. quarantine : He got HIV because of a careless sex. So he is in quarantine now.
+131. quarry : quarry out a huge block of stone ; At a distance there is already a modern quarry.
+132. quash : to quash a revolution ; The Appeal Court has quashed the convictions of all eleven people.
+133. quell : Troops eventually quelled the unrest. || Don't worry, let me quell your concern .
+134. quench : Firemen are trying to quench the flame; Let me quench your desire.
+135. querulous: She is always speaking about her past. She is querulous.
+136. query
+137. quibble : Don't quibble about the situation. If you have the ability, go change everything.
+138. quintessential: He is a quintessential examble of a boy who fights his way to top company.
+139. quip: He is a very humourious host who can speak endless quip.
+
+140. quirk :He got the quirk to smell other people's underwear.
+141. [* ]quixotic: He has always lived his life by a hopelessly quixotic code of honour.
+142. [* ]quizzical : He said he love boys. They show quizzical expression ; 
+143. quotidian : Videoing Vlog is to record your quotidian life. 
+144. rabid : The party has distanced itself from the more rabid nationalist groups in the country.
+145. radiant: The evening sun warms the old red brick wall to a radiant glow; On her wedding day the bride looked truly radiant.
+146. rail : He always likes to rail against unfair fate.
+147. raillery : I got an affectionate send-off from my colleagues, along with much raillery.
+148. rally : He rallied his own supporters for a fight.
+149. rambling : a rambling, boring letter
+
+150. ramification: The ramification of his luxury life style is tragedy.
+151. 
+

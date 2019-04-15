@@ -14,3 +14,20 @@ Math
 
 19. 极限思维，但图数据未知的时代 带入最大/最小值
 
+22. Ones digit || units digit 个位数字
+
+26. quadrilateral 四边形
+
+32. terminating decimal 有尽小数
+
+33. equilateral triangle 等边三角形
+    isosceles triangle   等腰三角形
+
+45. 150th to 154th 是5个数
+
+48. reciprocal 倒数 小数点右移动->变大
+
+51. standard deviation 标准偏差
+一个连续数列，加上a标准差不变，所有数乘a，标准差乘a
+
+52. 
