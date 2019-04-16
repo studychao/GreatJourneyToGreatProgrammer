@@ -168,5 +168,39 @@ Gre Words
 149. rambling : a rambling, boring letter
 
 150. ramification: The ramification of his luxury life style is tragedy.
-151. 
+151. rampant : There is evidence of rampant corruption in the local government.
+152. ramshackle : This is a ramshackle house and we can film our horror movie here.
+153. rancor : Please don't show your rancor towards me.
+154. rant : (n/v) The children began ranting and raving; 
+155. rapacious : She loves money, she is rapacious
+156. rapport: to establish a close rapport with clients.
+157. ratify : I need the government to ratify my request.
+158. ratio
+159. rattle : The news from Body Shop rattled the rest of the retail sector.
+
+160. raucous : She is a really bad singer, every sound she sings is raucous to me.
+
+161. recumbent: recumbent bicycle 躺车
+162. redeem: Work is the way that people seek to redeem their lives frpm futility.
+163. [* ]redolent : a kitchen redolent with the smell of baking
+164. refrigerant : Freon won't be used as refrigerant in the future.
+165. refulgent: Anyone can harness a happy feeling to wish a refulgent result
+166. regal : That plaza is regal/
+167. regimen : If you've recently started a new exercise regimen, you may be noticing that your stomach is growling more often than usual.
+168. regiment : Schoolboys and schoolgirls shouldn't be regimented ; Speical Reconnaissance regiment
+169. rehabilitate: The doctor is trying his best to rehabilitate Mike's disease.
+170. rehash: They are just rehashing old claims with no prospect or vision for future.
+
+171. reiterate : He reiterated his argument so that other people could remember.
+172. rejuvenate : When it was time to leave and return to civilization we both felt rejuvenate.
+173. relegate : Because I don't perform well in that exam so I'm relegated. ; Apple relegate me to sell iPhone.
+174. relentless : I'll be relentless in pursuing my dream.
+175. reliability
+176. relief (a work of art with design that stick out above the surface)
+177. relish : I relish the challenge of doing jobs that others turn down
+178. reminiscent: We drank from wax-coated paper cups reminiscent of a visit to the dentist.
+179. remorse : Lily left him. He is full of remorse.
+180. remunerate : The company will remunerate for your loss.
+
+
 

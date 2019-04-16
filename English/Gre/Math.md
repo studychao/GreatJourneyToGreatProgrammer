@@ -30,4 +30,42 @@ Math
 51. standard deviation 标准偏差
 一个连续数列，加上a标准差不变，所有数乘a，标准差乘a
 
-52. 
+70. 最小的质数是2
+divisible : 6 is divisible by 3.
+
+x are divisible by 9 可以被9整除
+
+77. 两垂直直线斜率乘积为-1
+
+80. quadrant 象限
+
+81. mode众数
+
+
+94. 图形不按比例画
+
+96. 余弦定理 c^2 = a^2 + b^2 - 2abcosC
+    正弦定理 a/sinA = b/sinB =c/sinC = 2r=D（r为外接圆半径，D为直径）。
+
+    同圆或等圆所对的圆周角相同
+103. 以长边为直径 任一端点为圆心画圆
+
+104. rhombus 菱形
+
+113. 无论咋搞 第二个人拿到的概率都是1/10 
+
+115. chord 弦
+
+121. 组合数公式 Crn = n!/r! * (n-r)!
+
+126. 49 percent of females smoke -> 人数必须是整数，所以要女生数就是100
+
+136. integer 整数！！！
+
+140. 这题是个蛮好的例子
+
+142. product of the point -> 分数的乘积
+
+144. 只有prime number的平方才有 3个divisor
+
+
