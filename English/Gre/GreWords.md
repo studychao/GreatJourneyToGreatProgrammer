@@ -202,5 +202,60 @@ Gre Words
 179. remorse : Lily left him. He is full of remorse.
 180. remunerate : The company will remunerate for your loss.
 
+181. renegade : He has shown himself to be a renegade without respect for the rule
+182. renege : I renege on the rude words
+183. renounce : I want to renounce the privilege
+184. renunciation : The renunciation of violence.
+185. repackage
+186. reparation : There is a clear demand among victims for some sort of reparation from offenders.
+187. repeal : Repeal the law
+188. repel : To repel the attack ; A violent excitement frightened and repelled her.
+189. repetitious
+190. reprieve : The people waiting to be hanged have been reprieved.
+
+191. reprimand : The students were reprimanded for their misbehave.
+192. reproach : the students were reproached for their misbehave.
+193. reprobate: The students were reprobated for their misbehave || The hookers are reprobates.
+194. reptile : 
+195. [* ] repugnant : He can't control himself and spend so much time on games every day. He is repugnant to me.
+196. rescind : You don't have the right to rescind the ruling.
+197. [* ]resent : She resents her mom for everything,
+198. resolute : He is a resolute guy who has a very high self-discipline.
+199. resonate : His speech resonate with the voters || The sound resonate in my mind.
+200. [* ]respite : Learn without respite.
+
+201. restive : The movie was so boring that the audience grew restive.
+202. restless : The movie was so boring that the audience grew restless.
+203. [* * ]resurrect : Attempts to resurrect the ceasefire have already failed once.
+204. resuscitate : Jon Snow is resuscitated.
+205. retain : a soil that retains moisture.
+206. retaliate : to retailate against an attack.
+207. [* ]retard : to retard failure by planing every day task.
+208. retention : retention of Shanghai's old buildings.
+209. reticent : He is a reticent man, he rarely speaks.
+210. retinal: Apple's retinal screen.
+
+211. retract : I need to retract everything your take from me.
+212. retroactive : a retroactive pay increase
+213. retrograde : a real retrograde step in human race
+214. revel : He revel in music and love.
+215. revenge
+216. reverberate : The music reverberate in the room ; His speech reverberate in people's mind.
+217. [* ]reverent : Chrinstine is very reverent in their faith.
+218. reverie : She was jolted out of her reverie as the door opened.
+219. reverse
+220. revert : I want to revert to best of me when I'm preparing for HuiKao.
+
+221. rivalry : Those two teams are in rivalry status.
+222. riveting : Taylor Swift is a very riveting singer. She will come back with her new single soon.
+223. roil : Times of national turmoil generally roil a country's financial market.
+224. rosy : live your life in rosy mood.
+225. rote : Rote learning is what we always do when we got educated in China
+226. rouse : 
+227. rue : I am ruing my decision that I can't control my behave.
+228. [* ]ruminate : The cows are ruminating || He ruminated on the terrible wastefulness that typified American life.
+229. rupture : You jeans rupture entirely, you need to fix it.
+230. ruthless : He is ruthless that he don't care about other people's feeling.
+
 
 

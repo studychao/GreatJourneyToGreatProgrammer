@@ -68,4 +68,12 @@ x are divisible by 9 可以被9整除
 
 144. 只有prime number的平方才有 3个divisor
 
+151. 假设领带价格很高 / 皮带价格很高
+
+156. 时刻注意N^2 = x N 的值有两个
+
+160. least possible 仍旧需要是possible的answer
+
+
+
 
